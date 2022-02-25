@@ -1,0 +1,44 @@
+{
+    "wallets": [ 
+        {
+            "setcodeMultisig": {
+                "type": "A more advanced version of the wallet that allows to manage custodians",
+                "abi": "contracts/SetcodeMultisigWallet/SetcodeMultisigWallet.abi.json",
+                "tvc": "contracts/SetcodeMultisigWallet/SetcodeMultisigWallet.tvc",
+                "metadata": "contracts/SetcodeMultisigWallet/metadata.json"
+            }
+        },
+        {
+            "setcodeMultisig24": {
+                "type": "A more advanced version of the wallet that allows to manage custodians (EXPIRATION_TIME changed to 86400)",
+                "abi": "contracts/SetcodeMultisig24Wallet/SetcodeMultisigWallet24.abi.json",
+                "tvc": "contracts/SetcodeMultisig24Wallet/SetcodeMultisigWallet24.tvc",
+                "metadata": "contracts/SetcodeMultisig24Wallet/metadata.json"
+            }
+        },
+        {
+            "surfMultisigWallet": {
+                "type": "",
+                "abi": "contracts/SurfMultisigWallet/SurfMultisigWallet.abi.json",
+                "tvc": "contracts/SurfMultisigWallet/SurfMultisigWallet.tvc",
+                "metadata": "contracts/SurfMultisigWallet/metadata.json"
+            }
+        },
+        {
+            "safeMultisigWallet": {
+                "type": "formally verified wallet recommended for validators",
+                "abi": "contracts/SafeMultisigWallet/SafeMultisigWallet.abi.json",
+                "tvc": "contracts/SafeMultisigWallet/SafeMultisigWallet.tvc",
+                "metadata": "contracts/SafeMultisigWallet/metadata.json"
+            }
+        },
+        {
+            "bridgeMultisigWallet": {
+                "type": "",
+                "abi": "contracts/BridgeMultisigWallet/BridgeMultisigWallet.abi.json",
+                "tvc": "contracts/BridgeMultisigWallet/BridgeMultisigWallet.tvc",
+                "metadata": "contracts/BridgeMultisigWallet/metadata.json"
+            }
+        }
+    ] 
+}
